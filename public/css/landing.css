@@ -1,14 +1,33 @@
 body {
       text-align: center;
       justify-content: center;
-      background-color: floralwhite;
+      background-color: white;
       margin-top: 40px;
       margin-left: 40px;
+      padding-bottom: 20px;
+      background-image: url("nastuh-abootalebi-ZtC4_rPCRXA-unsplash_changed.png");
+      background-size:     cover;                      
+      background-repeat:   no-repeat;
+      background-position: center center; 
+}
+.background {
+    position: relative;
+    background: #696969;
+    overflow: hidden;
 }
 
+.background img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.5;
+}
 
 .card {
-    background-color: #d3f3e6;
+    background-color: white;
     width: 30rem;
     border-radius: 10px;
     border: 0px;
